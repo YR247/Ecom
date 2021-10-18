@@ -1,0 +1,25 @@
+
+<form  action="#" #addShippingAddressForm="ngForm">
+    <div class="form-row">
+        
+        <div class="col-md-6 mb-3">
+          <label for="validationServer03">Description</label>
+          <textarea type="text" class="form-control" placeholder="Enter Address Description" required name="product_description" id="product_description" ngModel >
+          </textarea>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationServer01">Address line 1</label>
+          <input type="text" class="form-control" placeholder="Enter Address line 1" name="address_1" id="address_1" ngModel>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="validationServer01">Address line 2</label>
+          <input type="text" class="form-control"required placeholder="Enter Address line 2" name="address_2" id="address_2" ngModel>
+        </div>
+      </div>
+     
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    
+</form>
